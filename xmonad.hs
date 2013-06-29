@@ -34,8 +34,7 @@ import qualified XMonad.StackSet as W   -- manageHook rules
 main = do
         xmonad $ withUrgencyHook NoUrgencyHook $ defaultConfig 
             { modMask            = mod4Mask
---            , terminal           = "urxvtcd"
-            , terminal           = "gnome-terminal"
+            , terminal           = "xterm"
             , borderWidth        = 4
             , normalBorderColor  = "#004444"
             , focusedBorderColor = "#bb0000"
