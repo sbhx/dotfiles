@@ -21,9 +21,9 @@
 clear
 daemonize
 
-# ctrl+semicolon start
-# Escape end
-# ctrl+bracketleft end
+ctrl+semicolon start
+Escape end
+ctrl+bracketleft end
 # h cut-left
 # j cut-down
 # k cut-up
@@ -93,7 +93,6 @@ a history-back
 #Delete cell-select 2x1
 #End cell-select 2x2
 #Next cell-select 2x3 # PageDown
-
 ### Example using a 3x3 grid with nethack-vi keys
 #ctrl+semicolon start, grid 3x3
 #h cell-select 2x1 # left
@@ -108,7 +107,18 @@ a history-back
 ## My conf
 KP_0 start, grid 3x3
 ctrl+KP_0 start, cursorzoom 100,100, grid 3x3
+ctrl+semicolon start, grid 3x3
+ctrl+shift+semicolon start, cursorzoom 100,100, grid 3x3
 ##KP_Delete cursorzoom 100,100
+s cell-select 2x2 # center
+a cell-select 1x2 # left
+x cell-select 2x3 # down
+w cell-select 2x1 # up
+d cell-select 3x2 # right
+q cell-select 1x1 # up-left
+r cell-select 3x1 # up-right
+z cell-select 1x3 # down-left
+c cell-select 3x3 # down-right
 KP_5 cell-select 2x2 # center
 KP_4 cell-select 1x2 # left
 KP_2 cell-select 2x3 # down
@@ -118,6 +128,14 @@ KP_7 cell-select 1x1 # up-left
 KP_9 cell-select 3x1 # up-right
 KP_1 cell-select 1x3 # down-left
 KP_3 cell-select 3x3 # down-right
+shift+a move-left
+shift+x move-down
+shift+w move-up
+shift+d move-right
+shift+q move-up, move-left
+shift+e move-up, move-right
+shift+z move-down, move-left
+shift+c move-down, move-right
 shift+KP_4 move-left
 shift+KP_2 move-down
 shift+KP_8 move-up
@@ -132,7 +150,7 @@ KP_Subtract warp, click 2
 KP_Add warp, end
 ##ctrl+KP_0 grid-nav on
 ##shift+KP_0 grid-nav off
-e sh "emacsclient -c -a emacs", end
+period sh "emacsclient -c -a emacs", end
 t sh "gnome-terminal", end
 f sh "firefox", end
 
