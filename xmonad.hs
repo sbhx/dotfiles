@@ -102,6 +102,7 @@ myKeys = [ ("M-b"        , sendMessage ToggleStruts              ) -- toggle the
          , ("M-S-n"        , spawn "killall keynav; keynav"        ) -- restart keynav
          , ("M-m"        , spawn "xkbset m"        ) -- mousekeys on
          , ("M-S-m"      , spawn "xkbset -m"       ) -- mousekeys off
+         , ("M-<Up>"      , spawn "C"       ) -- script to change keyboard layout
          ]
 
 -- vim:sw=4 sts=4 ts=4 tw=0 et ai 
