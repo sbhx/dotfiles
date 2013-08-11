@@ -116,7 +116,7 @@ x cell-select 2x3 # down
 w cell-select 2x1 # up
 d cell-select 3x2 # right
 q cell-select 1x1 # up-left
-r cell-select 3x1 # up-right
+e cell-select 3x1 # up-right
 z cell-select 1x3 # down-left
 c cell-select 3x3 # down-right
 KP_5 cell-select 2x2 # center
