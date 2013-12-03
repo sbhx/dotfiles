@@ -150,8 +150,8 @@ KP_Subtract warp, click 2
 KP_Add warp, end
 ##ctrl+KP_0 grid-nav on
 ##shift+KP_0 grid-nav off
-period sh "emacsclient -c -a emacs", end
+slash sh "emacsclient -c -a emacs", end
 t sh "gnome-terminal", end
-f sh "firefox", end
+b sh "firefox", end
 
 
