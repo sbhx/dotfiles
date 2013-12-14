@@ -42,7 +42,7 @@ Copy the file to $HOME/.config/openbox/ instead. -->
          'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Cyclism</name>
+    <name>AbsE</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
         available characters are NDSLIMC, each can occur at most once.
@@ -397,7 +397,7 @@ and back in -->
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
-    <keybind key="W-k">
+    <keybind key="W-n">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
@@ -406,7 +406,7 @@ and back in -->
         <command>keynav</command>
       </action>
     </keybind>
-    <keybind key="S-W-k">
+    <keybind key="S-W-n">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
