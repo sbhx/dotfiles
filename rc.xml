@@ -415,7 +415,7 @@ and back in -->
         <command>killall keynav; keynav</command>
       </action>
     </keybind>
-    <keybind key="W-t">
+    <keybind key="S-W-Return">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
