@@ -424,6 +424,15 @@ and back in -->
         <command>xterm</command>
       </action>
     </keybind>
+    <keybind key="W-t">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>transset</name>
+        </startupnotify>
+        <command>transset</command>
+      </action>
+    </keybind>
     <keybind key="S-W-r">
       <action name="Restart">
       </action>
