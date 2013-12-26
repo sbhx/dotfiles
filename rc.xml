@@ -433,6 +433,15 @@ and back in -->
         <command>transset</command>
       </action>
     </keybind>
+    <keybind key="S-W-t">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>transset 1</name>
+        </startupnotify>
+        <command>transset 1</command>
+      </action>
+    </keybind>
     <keybind key="S-W-r">
       <action name="Restart">
       </action>
