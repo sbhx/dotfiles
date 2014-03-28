@@ -17,8 +17,8 @@ bindings = {
     'Mod4-plus': tile.cmd('add_master'),
     'Mod4-Return': tile.cmd('make_master'),
     'Mod4-f': tile.cmd('focus_master'),
-    # 'Mod4-tilde': tile.cmd('cycle'),
-    # 'Mod4-\': tile.cmd('cycle'),
+    #'Mod4-tilde': tile.cmd('cycle'),
+    'Mod4-i': tile.cmd('cycle'),
 
     # 'Mod4-q': tile.debug_state,
     'Mod4-Shift-q': state.quit,

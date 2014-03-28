@@ -67,12 +67,12 @@ w windowzoom
 
 ### Drag examples
 # Start drag holding the left mouse button
-q drag 1
+# q drag 1
 # Start drag holding middle mouse + control and shift
 #w drag 2 ctrl+shift
 
 ### History
-a history-back
+#a history-back
 
 ### Example of cut and move without the default values
 #h cut-left .75
@@ -151,7 +151,7 @@ KP_Add warp, end
 ##ctrl+KP_0 grid-nav on
 ##shift+KP_0 grid-nav off
 slash sh "emacsclient -c -a emacs", end
-t sh "gnome-terminal", end
+r sh "emacsclient -c -e '(remember)' -a emacs", end
+##t sh "gnome-terminal", end
 b sh "firefox", end
-
-
+t sh "~/bin/notify-time", end
