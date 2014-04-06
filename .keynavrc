@@ -155,3 +155,5 @@ r sh "emacsclient -c -e '(remember)' -a emacs", end
 ##t sh "gnome-terminal", end
 b sh "firefox", end
 t sh "~/bin/notify-time", end
+n sh "xcalib -invert -alter", end
+
