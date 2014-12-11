@@ -346,8 +346,22 @@ and back in -->
       </action>
     </keybind>
     <!-- Keybindings for window switching -->
+    <keybind key="W-Tab">
+      <action name="NextWindow">
+        <dialog>no</dialog>
+        <bar>no</bar>
+        <interactive>no</interactive>
+        <finalactions>
+          <action name="Focus"/>
+          <action name="Raise"/>
+          <action name="Unshade"/>
+        </finalactions>
+      </action>
+    </keybind>
     <keybind key="A-Tab">
       <action name="NextWindow">
+        <!-- http://www.reddit.com/r/openbox/comments/27nwpd/how_to_disable_window_framing_while_using_alttab/ -->
+        <bar>no</bar>
         <finalactions>
           <action name="Focus"/>
           <action name="Raise"/>
@@ -357,6 +371,7 @@ and back in -->
     </keybind>
     <keybind key="A-S-Tab">
       <action name="PreviousWindow">
+        <bar>no</bar>
         <finalactions>
           <action name="Focus"/>
           <action name="Raise"/>
