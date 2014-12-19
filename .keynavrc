@@ -156,5 +156,6 @@ r sh "emacsclient -c -e '(remember)' -a emacs", end
 b sh "firefox", end
 t sh "~/bin/notify-time", end
 n sh "xcalib -invert -alter", end
-f sh "xset r rate 160 100"
+f sh "xset r rate 160 100", end
+
 
