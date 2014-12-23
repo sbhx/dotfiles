@@ -1,6 +1,7 @@
 *customization: -color
 XTerm*termName: xterm-256color
 
+*background: #cccccc
 
 
 !fix alt key input
