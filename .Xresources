@@ -229,8 +229,11 @@ Super <Key> minus: smaller-vt-font() \n\
 Super <Key> plus: larger-vt-font() \n\
 Super <Key> KP_Subtract: smaller-vt-font() \n\
 Super <Key> KP_Add: larger-vt-font() \n
+<Key>BackSpace: string(0x7F)\n\
+<Key>Delete:    string("\033[3~")\n\
+<Key>Home:      string("\033[1~")\n\
+<Key>End:       string("\033[4~")
 !XTerm.VT100.font: -*-terminus-medium-r-normal-*-16-*-*-*-*-*-iso10646-*
-
 
 
 ! my customisations
