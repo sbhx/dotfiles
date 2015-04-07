@@ -159,3 +159,6 @@ n sh "xcalib -invert -alter", end
 f sh "xset r rate 160 100", end
 control+d sh "xfce4-display-settings --minimal", end
 l sh "i3lock", end
+7 sh "xrandr -o left", end
+8 sh "xrandr -o right", end
+9 sh "xrandr -o normal", end
