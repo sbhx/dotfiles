@@ -217,8 +217,6 @@ URxvt*altSendsEscape: true
 
 
 
-
-
 ! http://blog.rot13.org/2010/03/change_font_size_in_xterm_using_keyboard.html
 XTerm.VT100.translations: #override \
 Meta <Key> minus: smaller-vt-font() \n\
@@ -237,9 +235,18 @@ Super <Key> KP_Add: larger-vt-font() \n
 
 
 ! my customisations
-! XTerm*faceName: DejaVu Sans Mono
-XTerm*faceName: Ubuntu Mono
+XTerm*faceName: DejaVu Sans Mono
+! XTerm*faceName: Ubuntu Mono
 ! XTerm*faceName: Miriam Mono CLM
 
 XTerm*faceSize: 13
 
+
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
