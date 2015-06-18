@@ -162,3 +162,4 @@ l sh "i3lock", end
 7 sh "xrandr -o left", end
 8 sh "xrandr -o right", end
 9 sh "xrandr -o normal", end
+p sh "delayed_scrot", end

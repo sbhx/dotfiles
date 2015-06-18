@@ -235,8 +235,8 @@ Super <Key> KP_Add: larger-vt-font() \n
 
 
 ! my customisations
-XTerm*faceName: DejaVu Sans Mono
-! XTerm*faceName: Ubuntu Mono
+! XTerm*faceName: DejaVu Sans Mono
+XTerm*faceName: Ubuntu Mono
 ! XTerm*faceName: Miriam Mono CLM
 
 XTerm*faceSize: 13

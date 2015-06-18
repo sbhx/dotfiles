@@ -153,6 +153,8 @@ and back in -->
        Many programs reserve space automatically, but you can use this in other
        cases. -->
   <margins>
+    <!-- <top>40</top> -->
+    <!-- <bottom>30</bottom> -->
     <top>0</top>
     <bottom>0</bottom>
     <left>0</left>
@@ -179,12 +181,16 @@ and back in -->
   <keyboard>
     <!-- http://melp.nl/2011/01/10-must-have-key-and-mouse-binding-configs-in-openbox/ -->
     <keybind key="W-s">
-      <action name="Maximize"/>
+      <!-- <action name="Maximize"/> -->
+      <action name="MoveResizeTo">
+        <width>100%</width>
+        <height>100%</height>
+      </action>
     </keybind>
     <keybind key="W-w">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-        <width>100%</width>
+        <!-- <width>100%</width> -->
         <height>50%</height>
         <y>0</y>
       </action>
@@ -193,14 +199,14 @@ and back in -->
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <width>50%</width>
-        <height>100%</height>
+        <!-- <height>100%</height> -->
         <x>-0</x>
       </action>
     </keybind>
     <keybind key="W-x">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-        <width>100%</width>
+        <!-- <width>100%</width> -->
         <height>50%</height>
         <y>-0</y>
       </action>
@@ -209,7 +215,7 @@ and back in -->
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <width>50%</width>
-        <height>100%</height>
+        <!-- <height>100%</height> -->
         <x>0</x>
       </action>
     </keybind>
